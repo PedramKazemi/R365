@@ -33,7 +33,6 @@ def newsNotif():
                 pass
 
 
-
 def symNotif():
     for elem in elements:
         trElem = elem.find_elements(By.TAG_NAME , "td")
@@ -47,5 +46,5 @@ def symNotif():
                 pass
 
 
-# newsNotif()
-# symNotif()
+newsNotif()
+symNotif()
